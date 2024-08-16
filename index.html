@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мария Реутова Психолог</title>
+    <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+<div class="body-wrapper">
+<header class="header">
+        <div class="container">
+            <nav class="menu">
+                <a class="menu__phone-link" href="tel:+359876325152">
+                    +359876325152
+                </a>
+                <button class="menu__burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Услуги
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Обо мне
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Как всё происходит
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Результат
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Почему я
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Цена
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            Вопросы и ответы
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+</header>
+<main class="main"> 
+    <section class="promo">
+        <div class="container">
+            <div class="promo__inner">
+                <div class="promo__content">
+                    <h1 class="promo__content-title">
+                        Марина Реутова
+                    </h1>
+                    <p class="promo__content-subtitle">
+                        Магистр психологии, сертифицированный<br> 
+                        Гештальт и ЭОТ-терапевт
+                    </p>
+                    <a class="promo__content-btn button-consultation" href="#">
+                        записаться на консультацию
+                    </a>
+                    <div class="promo__content-hero">
+                        <div class="promo__content-img">
+                            <picture>
+    <source srcset="./images/img/avatar.webp 1x, ./images/img/avatar@2x.webp 2x" type="image/webp">
+    <source srcset="./images/img/avatar.png 1x, ./images/img/avatar@2x.png 2x" type="image/png">
+    <img class="promo__content-avatar" src="./images/img/avatar.png" alt="avatar">
+    </picture>
+                        </div>
+                        <p class="promo__content-blockquote">
+                            Любая ситуация в жизни имеет решение. Давайте найдём его вместе!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="problems">
+        <div class="container">
+            <h2 class="problems__title title">
+                Какие проблемы я помогу вам решить
+            </h2>
+            <div class="problems__content">
+                <div class="problems__cards" id="cards">
+                    <div class="problems__content-col">
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/anxiety.svg" alt="anxiety">
+                            <span class="problems__content-span">Тревога и страхи</span>
+                        </a>
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/storm.svg" alt="storm">
+                            <span class="problems__content-span">Депрессия и неврозы</span>
+                        </a>
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/love.svg" alt="love">
+                            <span class="problems__content-span">Непринятие, нелюбовь к себе</span>
+                        </a>
+                    </div>
+                    <div class="problems__content-col">
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/doldrums.svg" alt="doldrums">
+                            <span class="problems__content-span">Отсутствие радости от жизни</span>
+                        </a>
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/family.svg" alt="family">
+                            <span class="problems__content-span">Детско-родительские отношения</span>
+                        </a>
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/break-up.svg" alt="break-up">
+                            <span class="problems__content-span">
+                                Созависимые
+                                и токсичные отношения
+                            </span>
+                        </a>
+                    </div>
+                    <div class="problems__content-col">
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/divorced.svg" alt="divorced">
+                            <span class="problems__content-span">Кризисы, развод, утраты</span>
+                        </a>
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/no.svg" alt="no">
+                            <span class="problems__content-span">Неумение сказать «Нет»</span>
+                        </a>
+                        <a class="problems__content-card" href="#">
+                            <img class="problems__content-img" src="./images/svgicons/bad-review.svg" alt="bad-review">
+                            <span class="problems__content-span">
+                                Просто плохо,
+                                а причина не ясна
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <a class="problems__other-link" href="#">
+                    и любые другие
+                </a>
+                <a class="problems__btn button-consultation" href="#">
+                    записаться на консультацию
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="education">
+        <div class="container">
+            <h2 class="education__title title">
+                Моё образование и опыт
+            </h2>
+            <div class="education__content">
+                <div class="education__content-boximg">
+                    <picture>
+                        <source srcset="./images/img/education.webp 1x, ./images/img/education@2x.webp 2x" type="image/webp">
+                        <source srcset="./images/img/education.jpg 1x, ./images/img/education@2x.jpg 2x" type="image/jpeg">
+                        <img class="education__content-img" src="./images/img/education.jpg" alt="Maria">
+                    </picture>
+                </div>
+                <div class="education__content-info">
+                    <div class="education__content-text">
+                        Велико-Търновски Университет им.Св.Кирил и Методий (Болгария),
+                        <a class="education__content-link" href="#">
+                            магистр психологии
+                        </a>
+                    </div>
+                    <div class="education__content-text">
+                        Межрегиональный институт гештальт-терапии и искусства (МИГИС),
+                        <a class="education__content-link" href="#">
+                            гештальт-терапевт 1 ступени
+                        </a>
+                    </div>
+                    <div class="education__content-text">
+                        Университет Эмоционально-Образной Психотерапии им.Н.Линде,
+                        <button class="education__content-link education__content-btn" type="button">
+                            эмоционально-образный терапевт
+                        </button>
+                    </div>
+                    <a class="education__content-link" href="#">
+                        Ведущий психолог-эксперт на Общественном Латвийском Радио
+                    </a>
+                    <div class="education__content-text">
+                        Автор и ведущая авторских обучающих психологических тренингов и программ по коррекции самооценки, снижению тревоги и лечению депрессии без антидепрессантов
+                    </div>
+                    <div class="education__content-text">
+                        Частная практика с 2019 года, 4000+ консультаций клиентов
+                    </div>
+                </div>
+            </div>
+            <dialog class="dialog">
+                <div class="dialog__box">
+                    <h3 class="dialog__title">
+                        Удостоверение о повышении<br>
+                        квалификации
+                    </h3>
+                    <picture>
+    <source srcset="./images/img/certificate.webp 1x, ./images/img/certificate@2x.webp 2x" type="image/webp">
+    <source srcset="./images/img/certificate.jpg 1x, ./images/img/certificate@2x.jpg 2x" type="image/jpeg">
+    <img class="dialog__img" src="./images/img/certificate.jpg" alt="Удостоверение о повышении квалификации">
+    </picture>
+                    
+                    <button class="modal-close" type="button">
+                        <img class="modal-close__icon" src="./images/svgicons/close.svg" alt="close">
+                    </button>
+                </div>
+            </dialog>
+        </div>
+    </section>
+    <section class="steps">
+        <div class="container">
+            <div class="steps__inner">
+                <h2 class="steps__title title">
+                    Как всё происходит
+                </h2>
+                <ol class="steps__list">
+                    <li class="steps__item steps__item-active">
+                        Вы отправляете заявку, кликнув на кнопку «Записаться на консультацию»
+                    </li>
+                    <li class="steps__item">
+                        В течение 24 часов я с вами связываюсь в том мессенджере, который вы указали
+                    </li>
+                    <li class="steps__item">
+                        Мы знакомимся и выбираем удобное время для первой встречи
+                    </li>
+                    <li class="steps__item">
+                        <span>
+                            Вы <a class="steps__item-link" href="#">
+                                оплачиваете
+                            </a> консультацию (минимум за 2 часа до начала)
+                        </span>
+                    </li>
+                    <li class="steps__item">
+                        <span>
+                            В оговорённое время я отправляю вам ссылку на видео-звонок в <a class="steps__item-link" data-tooltip="Заходя первый раз в Google Meet — вам будет предложено его скачать, это быстро и бесплатно." href="#">Google Meet.</a>
+                        </span>
+                    </li>
+                    <li class="steps__item">
+                        На консультации мы обсудим пути решения вашей проблемы
+                    </li>
+                    <li class="steps__item">
+                        Вы решаете свою проблему и живёте дальше счастливую жизнь:-)
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section class="get">
+        <div class="container">
+            <h3 class="get__title title">
+                Вы получите
+            </h3>
+            <div class="get__content">
+                <div class="get__content-colums">
+                    <div class="get__content-col">
+                        <p class="get__content-text">
+                            Повышение самооценки. Уверенность в себе. Умение отстаивать свои границы
+                        </p>      
+                    </div>
+                    <div class="get__content-col">
+                        <p class="get__content-text">
+                            Освобождение энергии для достижения ваших целей
+                        </p>      
+                    </div>
+                    <div class="get__content-col">
+                        <p class="get__content-text">
+                            Улучшение здоровья, значительное повышение качества жизни
+                        </p>      
+                    </div>
+                </div>
+                <div class="get__content-colums">
+                    <div class="get__content-col">
+                        <p class="get__content-text">
+                            Глубокую проработку причин и как следствие — результат будет не временный, а постоянный
+                        </p>      
+                    </div>
+                    <div class="get__content-col">
+                        <p class="get__content-text">
+                            Избавление от груза проблем прошлого
+                        </p>      
+                    </div>
+                    <div class="get__content-col">
+                        <p class="get__content-text">
+                            Улучшение отношений с окружающими людьми
+                        </p>      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get-mobile">
+        <div class="container">
+            <h3 class="get-mobile__title get__title title">
+                Вы получите
+            </h3>
+            <div class="get-mobile__content">
+                <div class="get-mobile__box">
+                    <picture>
+    <source srcset="./images/img/get-bg.webp 1x, ./images/img/get-bg@2x.webp 2x" type="image/webp">
+    <source srcset="./images/img/get-bg.png 1x, ./images/img/get-bg@2x.png 2x" type="image/png">
+    <img class="get-mobile__box-img" src="./images/img/get-bg.png" alt="Maria">
+    </picture>
+                </div>
+                <div class="get-mobie__descr">
+                    <div class="get-mobile__descr-info">
+                        <p class="get-mobile__descr-text">
+                            Улучшение здоровья, значительное повышение качества жизни 
+                        </p>
+                    </div>
+                    <div class="get-mobile__descr-info get-mobile__descr-info--odd">
+                        <p class="get-mobile__descr-text">
+                            Освобождение энергии для достижения ваших целей
+                        </p>
+                    </div>
+                    <div class="get-mobile__descr-info">
+                        <p class="get-mobile__descr-text">
+                            Повышение самооценки. Уверенность в себе. Умение отстаивать свои границы
+                        </p>
+                    </div>
+                    <div class="get-mobile__descr-info get-mobile__descr-info--odd">
+                        <p class="get-mobile__descr-text">
+                            Глубокую проработку причин
+                            и как следствие — результат будет не временный, а постоянный
+                        </p>
+                    </div>
+                    <div class="get-mobile__descr-info">
+                        <p class="get-mobile__descr-text">
+                            Улучшение отношений с окружающими людьми
+                        </p>
+                    </div>
+                    <div class="get-mobile__descr-info get-mobile__descr-info get-mobile__descr-info--odd">
+                        <p class="get-mobile__descr-text">
+                            Избавление от груза проблем прошлого
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why">
+        <div class="container">
+            <h3 class="why__title title">
+                Почему я?
+            </h3>
+            <div class="why__inner">
+                <div class="why__content">
+                    <div class="why__content-card">
+                        <h4 class="why__content-card-title">
+                            Я гарантирую профессиональный подход
+                        </h4>
+                        <p class="why__content-card-text">
+                            Я работаю только на основе научной психологии и применяю только доказавшие свою эффективность методы.
+                        </p>
+                    </div>
+                    <div class="why__content-card why__content-card--dark why__content-one">
+                        <h4 class="why__content-card-title">
+                            Я обеспечу вам комплексное решение
+                        </h4>
+                        <p class="why__content-card-text">
+                            В отличии от других узко направленных психологов, я владею сразу несколькими специализациями.
+                        </p>
+                    </div>
+                    <div class="why__content-card">
+                        <h4 class="why__content-card-title">
+                            Я гарантирую индивидуальный подход
+                        </h4>
+                        <p class="why__content-card-text">
+                            Для меня каждый человек уникален. Я подберу именно те техники, которые будут работать лично для вас.
+                        </p>
+                    </div>
+                    <div class="why__content-card why__content-card--dark why__content-two">
+                        <h4 class="why__content-card-title">
+                            Я сэкономлю ваше время
+                        </h4>
+                        <p class="why__content-card-text">
+                            После каждой сессии вы получите упражнения для ускоренной проработки ваших проблем.
+                        </p>
+                    </div>
+                    <div class="why__content-info">
+                        <h4 class="why__info-title">
+                            Я сэкономлю ваши деньги
+                        </h4>
+                        <p class="why__info-text">
+                            Моя цель — не только помочь вам решить текущие проблемы, но и научить вас навыкам самостоятельного управления своим психологическим благополучием. Это позволит вам сэкономить, избегая повторного обращения за помощью.
+                        </p>
+                    </div>
+                </div>
+                <picture>
+    <source srcset="./images/img/why.webp 1x, ./images/img/why@2x.webp 2x" type="image/webp">
+    <source srcset="./images/img/why.jpg 1x, ./images/img/why@2x.jpg 2x" type="image/jpeg">
+    <img class="why__content-img" src="./images/img/why.jpg" alt="Maria">
+    </picture>
+            </div>
+        </div>
+    </section>
+    <section class="cost">
+        <div class="container">
+            <div class="cost__descr">
+                <h3 class="cost__descr-title title">
+                    Сколько это стоит?
+                </h3>
+                <p class="cost__descr-text">
+                    Оплата возможна в любой удобной для вас валюте
+                </p>
+                <div class="cost__descr-text cost__descr-text--gray">
+                    рубли, левы, гривны и т.д., курс валюты на день оплаты
+                </div>
+            </div>
+            <div class="cost__content-cards">
+                <div class="cost__content-card">
+                    <h4 class="cost__card-title cost__card-onetime">
+                        Разовая
+                    </h4>
+                    <div class="cost__card-price">
+                        <p class="cost__card-price-euro">
+                            25 €
+                        </p>
+                        <p class="cost__card-price-ruble">
+                            2 500 ₽
+                        </p>
+                    </div>
+                </div>
+                <div class="cost__content-card cost__content-card--border">
+                    <button class="cost__card-btn cost__card-btn--active">
+                        Скидка 11%
+                    </button>
+                    <h4 class="cost__card-title">
+                        8 + 1 бесплатно
+                    </h4>
+                    <div class="cost__card-price">
+                        <p class="cost__card-price-euro">
+                            200 €
+                        </p>
+                        <p class="cost__card-price-ruble">
+                            20 000 ₽
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cost__box-btn">
+                <a class="cost__btn button-consultation" href="#">
+                    записаться на консультацию
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="accordeon">
+        <div class="container">
+            <h3 class="accordeon__title title">
+                Вопросы и ответы
+            </h3>
+            <div class="accordeon__items">
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Какие гарантии вы можете дать?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Какие проблемы вы решаете?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Сколько длится консультация?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        На каких онлайн платформах вы работаете?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Что нужно для работы?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Я не могу сформулировать запрос.
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Как я могу оплатить?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Я могу перенести сессию?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Как часто нужно ходить к психологу?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Вы работаете только со взрослыми?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Вы работаете с мужчинами?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <h3 class="accordeon__item-title">
+                        Можно ли провести консультацию без видео, только голосом?
+                    </h3>
+                    <div class="accordeon__content">
+                        <p class="accordeon__content-text">
+                            Чтобы вам было комфортнее на встрече — проследите, пожалуйста, чтобы скорость интернета была стабильной и высокой. Если у вас есть возможность — на время консультации уйдите в спокойное, тихое помещение, где вас никто не потревожит. Если есть возможность провести встречу с компьютера или ноутбука — лучше выбрать этот вариант. Также будут не лишними наушники (если есть) и листок с ручкой.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__content">
+                <h3 class="contacts__content-title title">
+                    Свяжитесь со мной  
+                </h3>
+                <a class="contacts__content-link contacts__content-email" href="mailto:reutovammm@gmail.com">
+                    reutovammm@gmail.com
+                </a>
+                <div class="contacts__social">
+                    <a class="contacts__content-link" href="tel:+359876325152">
+                        +359876325152
+                    </a>
+                    <div class="contacts__social-network">
+                        <a class="contacts__social-link" href="#">
+                            <svg class="contacts__social-svg" width="68" height="68" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.9288 12.9799C20.9442 12.7008 21.1952 12.4864 21.4895 12.5009C22.5904 12.5554 23.5064 12.8715 24.1588 13.5112C24.8087 14.1485 25.1273 15.0387 25.1832 16.1079C25.1978 16.387 24.9711 16.6245 24.6768 16.6384C24.3824 16.6522 24.132 16.4372 24.1174 16.158C24.0695 15.2428 23.8048 14.6197 23.3918 14.2148C22.9813 13.8122 22.3548 13.5572 21.4339 13.5116C21.1396 13.497 20.9135 13.259 20.9288 12.9799Z" fill="#7360F2" />
+                                <path d="M20.9221 9.7863C20.6355 9.72108 20.3475 9.8885 20.2787 10.1602C20.21 10.432 20.3865 10.7052 20.673 10.7704C20.8862 10.8189 21.1023 10.8645 21.3201 10.9104C22.417 11.1418 23.555 11.3818 24.5555 12.0469C25.7043 12.8106 26.7216 14.1866 27.0035 16.9934C27.0314 17.2716 27.2919 17.4756 27.5852 17.4492C27.8786 17.4227 28.0937 17.1756 28.0658 16.8974C27.7618 13.8706 26.6311 12.1908 25.168 11.2182C23.9766 10.4262 22.5957 10.1385 21.4999 9.91016C21.2964 9.86778 21.1028 9.82744 20.9221 9.7863Z" fill="#7360F2" />
+                                <path d="M19.1786 7.66223C19.1807 7.38277 19.4212 7.15781 19.7159 7.15975C22.8123 7.18021 25.4295 8.15781 27.5309 10.1006C29.6499 12.0596 30.6978 14.7266 30.7244 18.039C30.7266 18.3185 30.4895 18.5468 30.1949 18.5489C29.9002 18.551 29.6595 18.3262 29.6573 18.0467C29.6324 14.9429 28.6587 12.5566 26.786 10.8253C24.8958 9.07769 22.5489 8.19051 19.7084 8.17175C19.4138 8.1698 19.1766 7.94168 19.1786 7.66223Z" fill="#7360F2" />
+                                <path d="M22.7215 22.4989C22.3177 22.9707 21.5677 22.9107 21.5677 22.9107C16.0859 21.5836 14.6188 16.3176 14.6188 16.3176C14.6188 16.3176 14.553 15.6063 15.053 15.2233L16.0435 14.4766C16.5347 14.1176 16.848 13.2467 16.348 12.3961C15.9645 11.7577 15.5475 11.1378 15.0986 10.5389C14.6625 9.9741 13.6467 8.81742 13.6429 8.81382C13.153 8.26579 12.4327 8.13853 11.6732 8.51369C11.6709 8.51369 11.6677 8.51466 11.6647 8.51559C11.6619 8.51646 11.6574 8.51729 11.6574 8.51729C10.902 8.93007 10.2208 9.45447 9.63962 10.0707C9.63764 10.0745 9.63565 10.0763 9.63367 10.0781C9.63186 10.0797 9.63004 10.0814 9.62822 10.0845C9.15902 10.6216 8.89045 11.148 8.82251 11.6638C8.80841 11.7399 8.80353 11.8172 8.80796 11.8943C8.80543 12.1221 8.84199 12.3487 8.91619 12.5654L8.94214 12.5822C9.17885 13.3793 9.77126 14.7071 11.0586 16.9208C11.795 18.2012 12.6442 19.4203 13.5973 20.5649C14.0748 21.1387 14.5866 21.686 15.1302 22.2042C15.1368 22.2104 15.1433 22.2166 15.1497 22.2228C15.1626 22.2352 15.1754 22.2474 15.1885 22.2594L15.3631 22.4251C15.9095 22.9407 16.4866 23.4261 17.0917 23.8789C18.2987 24.7829 19.5843 25.5883 20.9348 26.2865C23.2683 27.5074 24.6696 28.0693 25.5089 28.2938L25.5266 28.3184C25.755 28.3889 25.994 28.4238 26.2342 28.4216C26.3155 28.4253 26.3971 28.4205 26.4773 28.4072C27.022 28.346 27.5766 28.0917 28.1412 27.6443C28.1445 27.6426 28.1463 27.6408 28.148 27.6391C28.1499 27.6372 28.1518 27.6354 28.1558 27.6335C28.8056 27.0821 29.3587 26.4362 29.7944 25.7199C29.7944 25.7199 29.7951 25.7156 29.7959 25.7129C29.7967 25.7101 29.7976 25.7071 29.7976 25.7049C30.1932 24.9846 30.059 24.3015 29.4779 23.8363C29.4779 23.8363 29.4298 23.7993 29.3496 23.7366C29.0203 23.4793 28.1379 22.7897 27.6589 22.4557C27.0281 22.0301 26.3751 21.6346 25.7026 21.2708C24.8051 20.7966 23.8886 21.0937 23.5089 21.5595L22.7215 22.4989Z" fill="#7360F2" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M35.4849 3.90153C34.4368 2.98435 30.2012 0.0683276 20.7669 0.0287111C20.7669 0.0287111 9.64139 -0.607555 4.21787 4.11042C1.19883 6.97421 0.136788 11.1646 0.0247606 16.3597C-0.0872667 21.5549 -0.232207 31.291 9.66354 33.9309H9.67303L9.6667 37.9592C9.6667 37.9592 9.60341 39.59 10.7357 39.9226C11.8788 40.2592 12.6277 39.4516 13.6043 38.3985C13.7978 38.1899 14.0006 37.9711 14.2168 37.7503C14.9345 37.0168 15.9257 35.9393 16.6725 35.1158C23.4404 35.656 28.6455 34.4213 29.2367 34.2388C29.3587 34.2013 29.5314 34.1596 29.7458 34.1079C31.9323 33.5807 38.4479 32.0095 39.5932 23.1438C40.8913 13.1094 38.9653 6.76233 35.4849 3.90153ZM36.6317 22.4241C35.676 29.7431 30.4962 30.8862 28.6298 31.298C28.4234 31.3436 28.2575 31.3802 28.1424 31.4152C27.6506 31.5653 23.079 32.6439 17.3301 32.288C17.3301 32.288 13.0465 37.189 11.7085 38.4634C11.4996 38.6627 11.2541 38.7431 11.0901 38.7035C10.8598 38.6501 10.7965 38.3913 10.799 38.0132C10.8028 37.473 10.8357 31.3192 10.8357 31.3192C2.7413 29.1879 2.93008 21.3696 3.03723 16.9321C3.04089 16.7805 3.04446 16.6327 3.0476 16.4894C3.14254 12.1502 4.00205 8.59549 6.55526 6.20469C11.1427 2.26405 20.5929 2.85289 20.5929 2.85289C28.5734 2.88591 32.3975 5.16506 33.2842 5.92858C36.2286 8.31938 37.7286 14.0404 36.6317 22.4217V22.4241Z" fill="#7360F2" />
+                            </svg>
+                        </a>
+                        <a class="contacts__social-link" href="#">
+                            <svg class="contacts__social-svg" width="68" height="68" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M32.4516 7.3894C29.1257 4.05923 24.7022 2.22435 19.9891 2.22266C10.2773 2.22266 2.37339 10.1257 2.37001 19.8399C2.36832 22.9453 3.18017 25.9765 4.72193 28.6477L2.22217 37.7782L11.5623 35.3283C14.1355 36.7324 17.0332 37.4715 19.9816 37.4724H19.9891C29.6992 37.4724 37.6041 29.5685 37.6075 19.8543C37.6091 15.1463 35.7784 10.7204 32.4516 7.39024V7.3894ZM19.9891 34.4971H19.9832C17.3559 34.4963 14.7784 33.7899 12.5296 32.456L11.9948 32.1384L6.45209 33.5923L7.93133 28.1881L7.58327 27.6339C6.11754 25.3024 5.34286 22.6074 5.34455 19.8408C5.34793 11.7671 11.9171 5.19801 19.9951 5.19801C23.9065 5.1997 27.5831 6.72455 30.3481 9.49293C33.1131 12.2605 34.6346 15.9404 34.6329 19.8526C34.6295 27.9272 28.0604 34.4963 19.9891 34.4963V34.4971ZM28.0215 23.53C27.5813 23.3095 25.417 22.245 25.0131 22.0981C24.6094 21.951 24.3163 21.8776 24.023 22.3185C23.7299 22.7596 22.886 23.7513 22.6292 24.0444C22.3723 24.3384 22.1155 24.3748 21.6753 24.1542C21.2353 23.9338 19.8168 23.4691 18.1348 21.9696C16.8263 20.8021 15.9425 19.361 15.6858 18.9199C15.4289 18.479 15.6588 18.2407 15.8783 18.0219C16.076 17.8243 16.3185 17.5075 16.539 17.2506C16.7595 16.9938 16.8322 16.8097 16.9791 16.5165C17.1262 16.2225 17.0526 15.9658 16.9428 15.7452C16.833 15.5247 15.9527 13.3578 15.5852 12.4767C15.2278 11.6184 14.8646 11.735 14.5951 11.7206C14.3383 11.708 14.0452 11.7054 13.7512 11.7054C13.4572 11.7054 12.9807 11.8153 12.5769 12.2562C12.1731 12.6972 11.036 13.7625 11.036 15.9285C11.036 18.0946 12.6133 20.1889 12.8337 20.4828C13.0542 20.7768 15.9383 25.223 20.3541 27.1305C21.4042 27.5841 22.2245 27.8553 22.864 28.0581C23.9184 28.3934 24.878 28.3462 25.6366 28.2329C26.4823 28.1062 28.2412 27.1677 28.6078 26.1395C28.9744 25.1114 28.9744 24.2294 28.8646 24.0461C28.7548 23.8628 28.4609 23.7521 28.0207 23.5317L28.0215 23.53Z" fill="#25D366" />
+                            </svg>    
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <p class="footer__text">
+                профессиональная онлайн терапия<br> 
+                Марина Реутова
+            </p>
+            <a class="footer__btn-link" href="#">
+                записаться на консультацию
+            </a>
+            <div class="footer__social">
+                <a class="footer__social-link" href="#">
+                    <img class="footer__icon" src="./images/svgicons/instagram.svg" alt="instagram">
+                </a>
+                <a class="footer__social-link" href="#">
+                    <img class="footer__icon" src="./images/svgicons/facebook.svg" alt="facebook">
+                </a>
+                <a class="footer__social-link" href="#">
+                    <img class="footer__icon" src="./images/svgicons/vk.svg" alt="vk">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="./js/main.min.js"></script>
+</body>
+</html>
